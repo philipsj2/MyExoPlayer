@@ -16,7 +16,7 @@ import com.google.android.exoplayer2.upstream.DefaultBandwidthMeter;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = MainActivity.class.getSimpleName();
+    private static final String TAG = MainActivity.class.getSimpleName() + "-";
     private static final String VIDEO_URI =
             "https://storage.googleapis.com/exoplayer-test-media-0/BigBuckBunny_320x180.mp4";
 
